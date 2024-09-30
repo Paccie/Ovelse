@@ -1,0 +1,95 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-image: url(../img/header_background.jpg);
+    background-size: cover;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0rem;
+    width: 100%;
+    h1{
+        margin: 0px;
+        align-content: center;
+        text-align: center;
+        font-size: 200%;
+        padding: 0.5rem;
+    }
+    a{
+        color: #ffffff;
+        }
+    nav ul{
+        padding: 1rem;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        font-size: 125%;
+    }
+}
+
+main{
+    padding: 0.5rem;
+
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#frontpage-articles{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    min-width: 400px;
+    padding: 1rem;
+    h2{
+        min-width: 100%;
+        margin: 0px;
+        font-size: 200%;
+    }
+    article{
+        min-width: 300px;
+        max-width: 400px;
+        box-shadow: 16px 16px 8px #efefef;
+        padding: 16px;
+        border: 4px;
+        border-color: #efefef;
+    }
+}
+
+aside{
+    display: flex;
+    flex-basis: 0px;
+    flex-direction: column;
+    width: 30%;
+    min-width: 350px;
+    padding: 0.5rem;
+    text-align: right;
+    list-style-position: inside;
+    background-color: #efefef;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    a{
+        color: #ffffff;
+    }
+}

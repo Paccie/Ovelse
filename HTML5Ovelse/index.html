@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Øvelses nettsted</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <h1 id="top">Øvelses nettsted</h1>
+        <h1 id="top"><a href="index.html">Øvelses nettsted</a></h1>
         <nav>
             <ul>
                 <li><a href=index.html>Hjem</a></li>
@@ -19,40 +20,45 @@
         </nav>
     </header>
 
-    <main>
-        <section>
+    <main class="flex">
+        <section id="frontpage-articles">
             <h2>Artikler</h2>
             <article>
                 <h3>Validering</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="validering.html">Se valideringsoppgaven</a>
+                <a href="validering.html">>> Se valideringsoppgaven</a>
             </article>
             <article>
                 <h3>Kontakt oss</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="contact.html">Kontakt oss her</a>
+                <a href="contact.html">>> Kontakt oss her</a>
             </article>
             <article>
                 <h3>Studieplan</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <!-- Eventuell lenke til en side som inneholder studieplaner vil gå her. -->
+                <a href="studieplan.html">>> Se studieplanen</a>
+            </article>
+            <article>
+                <h3>Pannekake oppskrift</h3>
+                <p>Her har vi en pannekake oppskrift jeg fant på nettet, nam.</p>
+                <a href="oppskrift.html">>> Se oppskriften</a>
             </article>
         </section>
-    </main>
 
-    <aside>
-        <section>
-            <h4>Andres artikler om Semtantisk HTML</h4>
-            <ul>
-                <li><a href=https://ndla.no/subject:1:1352b19e-e706-4480-a728-c6b0a57ba8ae/topic:1:f7b88f8c-5f2f-4ea8-bdcf-1bd4811c37b3/topic:1:df9278b0-7252-4a62-a39c-3107d7f319f1/resource:8c2c0c8e-11cd-488a-a1af-145f4632cdb3 target="_blank">NDLA</a></li>
-                <li><a href=https://www.w3schools.com/html/html5_semantic_elements.asp target="_blank">w3schools</a></li>
-                <li><a href=https://www.koding.no/opplaering/frontend/semantisk-html-og-tilgjengelighet target="_blank">Koding.no</a></li>
-                <li><a href=https://www.semrush.com/blog/semantic-html5-guide target="_blank">Semrush</a></li>
-                <li><a href=https://www.merkle.com/en/merkle-now/articles-blogs/2023/what--why---how-of-semantic-html.html target="_blank">Merkle</a></li>
-            </ul>
-            <a href="https://www.google.com/search?q=HTML5" target="_blank">See Google resultater om HTML5</a>
-        </section>
-    </aside>
+        <aside>
+            <section>
+                <h4>Andres artikler om Semtantisk HTML</h4>
+                <ul>
+                    <li><a href=https://ndla.no/subject:1:1352b19e-e706-4480-a728-c6b0a57ba8ae/topic:1:f7b88f8c-5f2f-4ea8-bdcf-1bd4811c37b3/topic:1:df9278b0-7252-4a62-a39c-3107d7f319f1/resource:8c2c0c8e-11cd-488a-a1af-145f4632cdb3 target="_blank">NDLA</a></li>
+                    <li><a href=https://www.w3schools.com/html/html5_semantic_elements.asp target="_blank">w3schools</a></li>
+                    <li><a href=https://www.koding.no/opplaering/frontend/semantisk-html-og-tilgjengelighet target="_blank">Koding.no</a></li>
+                    <li><a href=https://www.semrush.com/blog/semantic-html5-guide target="_blank">Semrush</a></li>
+                    <li><a href=https://www.merkle.com/en/merkle-now/articles-blogs/2023/what--why---how-of-semantic-html.html target="_blank">Merkle</a></li>
+                </ul>
+                <a href="https://www.google.com/search?q=HTML5" target="_blank">>> Se Google resultater om HTML5</a>
+            </section>
+        </aside>
+    </main>
     
     <footer>
         <p>Kontakt meg på epost: <a href="mailto:haraldab@hiof.no">Epost</a></p>
