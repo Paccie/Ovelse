@@ -1,0 +1,112 @@
+body{
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#homepage-structure{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr; 
+    grid-template-rows: repeat(4, auto);
+}
+
+header{
+    background-image: url(../img/header_background.jpg);
+    background-size: cover;
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0rem;
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    a{
+        color: #ffffff;
+        }
+    h1{
+        margin: 0px;
+        align-content: center;
+        text-align: center;
+        font-size: 200%;
+        padding: 0.5rem;
+    }
+
+}
+    
+nav{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color: #111111;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    ul{
+        list-style: none;
+        margin: 0;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        font-size: 125%;
+        a{
+            color: #ffffff;
+            }
+    }
+}
+
+main{
+    padding: 0.5rem;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+#frontpage-articles{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    padding: 1rem;
+    h2{
+        min-width: 100%;
+        margin: 0px;
+        font-size: 200%;
+    }
+    article{
+        min-width: 300px;
+        max-width: 400px;
+        box-shadow: 16px 16px 8px #efefef;
+        padding: 16px;
+        border: 4px;
+        border-color: #efefef;
+    }
+}
+
+aside{
+    display: flex;
+    flex-basis: 0px;
+    flex-direction: column;
+    padding: 0.5rem;
+    text-align: right;
+    list-style-position: inside;
+    background-color: #efefef;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    a{
+        color: #ffffff;
+    }
+}
